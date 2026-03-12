@@ -4,19 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Hiking Adventures</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h3>Page for my Recent Hiking Adventures</h1>
+    <h1>Page for my Recent Hiking Adventures</h1>
 
-    <p>My most recent hiking excursion was over spring break. 
-        I went camping and backpacking in the southwest United States.</p>
+    <button id="button"> Return to home page. </button>
+    <script>
+        const navigateButton = document.getElementById('button');
+        navigateButton.addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+    </script>
 
+    <p>My most recent hiking excursion was over spring break. I went camping and backpacking in the southwest United States.
+        Over the course of four days, I went to four states and six national parks with my Dad. The first day was spent driving through Southern Colorado.
+        In Colorado, we have 58 peaks that are above 14,000 feet, which are called 14ers. We drove past several of these ranges - one day I plan on hiking all of them.
+        We camped out in New Mexico and spent the morning canyoneering and exploring the desert of the Bisti Wilderness Area. This area was super bizzare, almost like
+        another planet. Then we drove to Arizona to go to the Petrified Forest where we hiked through hills filled of with colorful petrified wood.
+        On a complete whim, we also decided to drive to the Grand Canyon and stay there overnight. That night, I saw a full lunar eclipse and the Milky Way Galaxy.
+        The next day, we drove through the desert up to Utah, passed an area where Forrest Gump was filmed. We camped in the Needles District Canyonlands National Park, 
+        which is by far my favorite national park. We hiked 11 miles out to the confluence of the Colorado and Green Rivers, then drove home. This was one of the most
+        memorable trips I've ever been on. The desert and canyon landscapes were a nice getaway from the city of Boston.
+    </p>
+
+
+    <h3>National Parks and Areas visited on this trip:</h3>
     <ul>
         <li>Great Sand Dunes National Park, CO</li>
         <li>Mesa Verde National Park, CO</li>
-        <li>Bisti Badlands Wildlife Area, NM</li>
+        <li>Bisti De-Na-Zin Badlands Wilderness Area, NM</li>
         <li>Petrified Forest National Park, AZ</li>
         <li>Grand Canyon National Park, AZ</li>
+        <li>Bear Ears National Monument, UT</li>
         <li>Canyonlands National Park, UT</li>
         <li>Arches National Park, UT</li>
     </ul>

@@ -8,18 +8,31 @@
 </head>
 <body>
     <h1>Welcome to my website for ds4200 hw7</h1>
-    <p>My name is Cozette Kinney, and I go by Cozy. One of my favorite activities is hiking and exploring the outdoors.
-        Growing up in Colorado, I have always been surrounded by nature and mountain hikes. 
+    <p>My name is Cozette Kinney, and I go by Cozy. </p>
+    
+    <button id="button"> Read about more hikes here! </button>
+    <script>
+        const navigateButton = document.getElementById('button');
+        navigateButton.addEventListener('click', function() {
+            window.location.href = 'page1-hikes.html';
+        });
+    </script>
+
+    <p>One of my favorite activities is hiking and exploring the outdoors.
+        Growing up in Colorado, I have always been surrounded by nature and mountain hikes. My family spends as much time as possible outside.
+        I try to spend time outside every day, from running, walking my dog in the open space, going on longer hikes, or camping. This year, the weather has been
+        very dry and warm in Colorado, making it perfect hiking weather. When I am home, I went hiking at my local trailhead nearly every day. Pictured below, <b>Chautauqua Park</b> in Boulder, Colorado
+        has lots of super fun hikes through the Flatirons, which are the iconic rock formations in Boulder. I enjoy the difficult hikes up the Flatirons. Scrambling and climbing the Flatiron rocks
+        is always a fun challenge. My friends and I do annual sunrise hikes up to the <b>Royal Arch</b>, which is a natural rock arch that requires strenuous climbs. The views from the top of the 
+        Flatirons overlook CU Boulder, the entire front range, and Long's Peak. I'm grateful I grew up in this area and had the chance to fall in love with the mountains from a young age.
 
     </p>
     <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_800,q_75,w_1200/v1/clients/boulder/FlatironsatsunrisewithsweetpeasTomMangan_6d2b3050-6b8f-4337-8486-0481eac40e8f.jpg" alt="Image of Flatirons in Colorado.">
 
-    <button id="button"> Learn more about my recent hiking adventures! </button>
-    <script>
-        const navigateButton = document.getElementById("button");
-        navigateButton.addEventListener("click", function() {
-            window.location.href = "page1-hikes.html";
-        });
-    </script>
+    <h3>Contact Info:</h3>
+    <p><b>Email:</b> kinney.co@northeastern.edu</p>
+    <p><b>Instagram:</b> @cozette.kinney (check out my hikes!)</p>
+
+
 </body>
 </html>

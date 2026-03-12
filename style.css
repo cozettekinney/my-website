@@ -1,4 +1,22 @@
 h1{
     color:darkblue;
     text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+p{
+    width: 1000px;
+    margin-left: 100;
+}
+
+#button{
+    display: block;
+    margin-left: 100;
+    color: navy;
+    background-color: lightblue;
+}
+
+b{
+    color: navy;
+}
+
